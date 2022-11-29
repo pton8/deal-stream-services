@@ -1,0 +1,17 @@
+package main.java.org.hearst.app;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
+
+public class DealStreamApp {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DealStreamApp.class, args);
+    }
+
+    @Bean
+    public RestTemplate getRestTemplate() {
+        return new RestTemplate();
+    }
+}
