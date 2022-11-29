@@ -7,6 +7,7 @@ It is a spring boot application that offers two APIs
 
 Once the endpoints are all hooked, it may be run by running the main method in DealStreamApp.
 
-Technologies used - Java
-Maven - to build the project and manage external Java libraries (the dependencies are all defined in pom.xml)
-Spring boot - Open source Java based framework popularly used for creating micro services.
+Technologies used
+- Java
+- Maven - to build the project and manage external Java libraries (the dependencies are all defined in pom.xml)
+- Spring boot - Open source Java based framework popularly used for creating micro services.
